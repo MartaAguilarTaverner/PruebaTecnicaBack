@@ -21,13 +21,13 @@ module.exports = (sequelize, DataTypes) => {
         type: DataTypes.TEXT,
         allowNull: false,
     },
-    year: {
-        type: DataTypes.INTEGER,
-        allowNull: false,
-    },
     brand: {
         type: DataTypes.STRING,
         allowNull: false,
+    },
+    img: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     specification1: {
       type: DataTypes.STRING,

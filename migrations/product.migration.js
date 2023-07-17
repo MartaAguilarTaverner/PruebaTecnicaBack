@@ -17,13 +17,13 @@ module.exports = {
               type: Sequelize.TEXT,
               allowNull: false,
           },
-          year: {
-              type: Sequelize.INTEGER,
-              allowNull: false,
-          },
           brand: {
               type: Sequelize.STRING,
               allowNull: false,
+          },
+          img: {
+            type: Sequelize.STRING,
+            allowNull: false,
           },
           specification1: {
             type: Sequelize.STRING,
